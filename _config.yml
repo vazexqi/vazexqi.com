@@ -2,40 +2,28 @@
 remote_theme: epidrome/cover-card@main
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: "Nick Chen"
+description: "Software Engineer"
 
 # Images
-avatar: 'avatar.jpg'
-background: 'background.jpg'
-favicon: 'favicon.ico'
+avatar: "avatar.jpeg"
+background: "background.jpg"
+favicon: "favicon.ico"
 
 # Online profiles
-#dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
-#linkedin: 'mylinkedin'
-instagram: 'myinsta'
-#pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
-#gitlab-user: ''
-#codepen: ''
-#steam: ''
-#soundcloud: ''
-#lastfm: ''
-#stack-overflow: ''
-#reddit: ''
-#rubygems: ''
-#medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+twitter: "vazexqi"
+linkedin: "nicholas.chen"
+github-user: "vazexqi"
+# blog_url: "myblog.blog.com"
+email: "nchen.dev@mac.com"
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [
+    github-user,
+    linkedin,
+    twitter,
+    # blog_url,
+    email,
+  ]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -147,10 +135,10 @@ social-links:
     url-pattern: www.quora.com/profile/__USERNAME__
 
   - name: blog_url
-    url-pattern: '__USERNAME__'
+    url-pattern: "__USERNAME__"
     icon-class: fas fa-2x fa-blog
 
   - name: email
-    url-scheme: 'mailto:'
-    url-pattern: '__USERNAME__'
+    url-scheme: "mailto:"
+    url-pattern: "__USERNAME__"
     icon-class: far fa-2x fa-envelope-open

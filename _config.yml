@@ -13,12 +13,12 @@ favicon: "favicon.ico"
 # Online profiles
 twitter: "vazexqi"
 linkedin: "nicholaschen"
-github-user: "vazexqi"
+github: "vazexqi"
 # blog_url: "myblog.blog.com"
 email: "nchen.dev@mac.com"
 
 social-links-order: [
-    github-user,
+    github,
     linkedin,
     twitter,
     # blog_url,
@@ -73,7 +73,7 @@ social-links:
   - name: pinterest
     url-pattern: pinterest.com/__USERNAME__
 
-  - name: github-user
+  - name: github
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
